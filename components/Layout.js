@@ -37,8 +37,10 @@ export default function Layout({ title, children }) {
   return (
     <>
       <Head>
-        <title>{title ? title + ' - Linton' : 'Linton'}</title>
-        <meta name="description" content="Ecommerce Website" />
+        <title>
+          {title ? title + ' - milky way fiasco' : 'milky way fiasco'}
+        </title>
+        <meta name="description" content="video audio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
