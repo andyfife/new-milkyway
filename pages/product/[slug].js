@@ -1,25 +1,23 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import React, { useContext } from 'react';
+
+import React from 'react';
 import '../../node_modules/video-react/dist/video-react.css';
 import Layout from '../../components/Layout';
 import Product from '../../models/Product';
 import db from '../../utils/db';
-import { Store } from '../../utils/Store';
 
 import { Player } from 'video-react';
 
 export default function ProductScreen(props) {
   const { product } = props;
-  const { state, dispatch } = useContext(Store);
-  const router = useRouter();
+
   if (!product) {
     return <Layout title="Produt Not Found">Produt Not Found</Layout>;
   }
 
   return (
     <Layout title={product.name}>
-      <div className=" text-white py-2">
+      <div className="  py-2">
         <Link href="/">time machine</Link>
       </div>
 

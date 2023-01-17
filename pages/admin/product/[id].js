@@ -101,7 +101,15 @@ export default function AdminProductEditScreen() {
     }
   };
 
-  const submitHandler = async ({ name, slug, video, mp3, image, date }) => {
+  const submitHandler = async ({
+    name,
+    slug,
+    video,
+    mp3,
+    image,
+    date,
+    number,
+  }) => {
     try {
       dispatch({ type: 'UPDATE_REQUEST' });
       await axios.put(`/api/admin/products/${productId}`, {

@@ -7,9 +7,7 @@ import Product from '../models/Product';
 import db from '../utils/db';
 import { Store } from '../utils/Store';
 
-import Link from 'next/link';
-
-export default function Home({ products, featuredProducts }) {
+export default function Home({ products }) {
   const { state, dispatch } = useContext(Store);
   const { cart } = state;
 
