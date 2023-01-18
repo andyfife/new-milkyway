@@ -152,6 +152,7 @@ export default function AdminProdcutsScreen() {
                       <td className=" p-5 ">${product.date}</td>
                       <td className=" p-5 ">{product.video}</td>
                       <td className=" p-5 ">{product.mp3}</td>
+                      <td className=" p-5 ">{product.number}</td>
 
                       <td className=" p-5 ">
                         <Link href={`/admin/product/${product._id}`}>

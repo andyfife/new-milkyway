@@ -8,17 +8,11 @@ const data = {
       password: bcrypt.hashSync('123456'),
       isAdmin: true,
     },
-    {
-      name: 'Jane',
-      email: 'user@example.com',
-      password: bcrypt.hashSync('123456'),
-      isAdmin: false,
-    },
   ],
   products: [
     {
       _id_old: '63c248906063366ffcfa4beb',
-      slug: 'TITLE',
+      slug: 'title',
       name: 'TITLE',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -34,7 +28,7 @@ const data = {
     },
     {
       _id_old: '63b90b206063366ffcfa4bea',
-      slug: 'SPOKEN',
+      slug: 'spoken',
       name: 'SPOKEN',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -50,7 +44,7 @@ const data = {
     },
     {
       _id_old: '63afda2a6063366ffcfa4be9',
-      slug: 'WOODEN',
+      slug: 'wooden',
       name: 'WOODEN',
 
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
@@ -67,7 +61,7 @@ const data = {
     },
     {
       _id_old: '63a6a3fe6063366ffcfa4be8',
-      slug: 'QUICK',
+      slug: 'quick',
       name: 'QUICK',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -83,7 +77,7 @@ const data = {
     },
     {
       _id_old: '639d61286063366ffcfa4be7',
-      slug: 'ONWARDS',
+      slug: 'onwards',
       name: 'ONWARDS',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -128,7 +122,7 @@ const data = {
     },
     {
       _id_old: '6381b7184b5cf7e1585fe0ec',
-      slug: 'TONIC',
+      slug: 'tonic',
       name: 'TONIC',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -144,7 +138,7 @@ const data = {
     },
     {
       _id_old: '63787451212b1590aad359e0',
-      slug: 'MIST',
+      slug: 'mist',
       name: 'MIST',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -160,7 +154,7 @@ const data = {
     },
     {
       _id_old: '636f3925212b1590aad359de',
-      slug: 'COAST',
+      slug: 'coast',
       name: 'COAST',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -176,7 +170,7 @@ const data = {
     },
     {
       _id_old: '6365f4a8212b1590aad359dd',
-      slug: 'SURF',
+      slug: 'surf',
       name: 'SURF',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -192,7 +186,7 @@ const data = {
     },
     {
       _id_old: '635cb933212b1590aad359dc',
-      slug: 'DEFINITION',
+      slug: 'definition',
       name: 'DEFINITION',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -208,7 +202,7 @@ const data = {
     },
     {
       _id_old: '63537af7212b1590aad359da',
-      slug: 'PLUS',
+      slug: 'plus',
       name: 'PLUS',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -224,7 +218,7 @@ const data = {
     },
     {
       _id_old: '634a40f1212b1590aad359d9',
-      slug: 'NUMBERS',
+      slug: 'numbers',
       name: 'NUMBERS',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -240,7 +234,7 @@ const data = {
     },
     {
       _id_old: '63414225212b1590aad359d8',
-      slug: 'EDGE',
+      slug: 'edge',
       name: 'EDGE',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -256,7 +250,7 @@ const data = {
     },
     {
       _id_old: '6337d03e212b1590aad359d7',
-      slug: 'KEY',
+      slug: 'key',
       name: 'KEY',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -272,7 +266,7 @@ const data = {
     },
     {
       _id_old: '632e9190212b1590aad359d6',
-      slug: 'SPY',
+      slug: 'spy',
       name: 'SPY',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -288,7 +282,7 @@ const data = {
     },
     {
       _id_old: '63255ec5212b1590aad359d5',
-      slug: 'GAME',
+      slug: 'game',
       name: 'GAME',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -304,7 +298,7 @@ const data = {
     },
     {
       _id_old: '631c1cbc212b1590aad359d4',
-      slug: 'LATERS',
+      slug: 'laters',
       name: 'LATERS',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -320,7 +314,7 @@ const data = {
     },
     {
       _id_old: '6312e1922c2cf00b2ffacb8f',
-      slug: 'CH1',
+      slug: 'ch1',
       name: 'CH1',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -336,7 +330,7 @@ const data = {
     },
     {
       _id_old: '6309a895faa8a60b12aee43e',
-      slug: 'BREEZE',
+      slug: 'breeze',
       name: 'BREEZE',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -368,7 +362,7 @@ const data = {
     },
     {
       _id_old: '62f73327faa8a60b12aee43c',
-      slug: 'SET',
+      slug: 'set',
       name: 'SET',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -384,7 +378,7 @@ const data = {
     },
     {
       _id_old: '62edfb9ffaa8a60b12aee43a',
-      slug: 'WAVE',
+      slug: 'wave',
       name: 'WAVE',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -400,7 +394,7 @@ const data = {
     },
     {
       _id_old: '62e4c3b51bc1c90927036ddc',
-      slug: 'WEATHER',
+      slug: 'weather',
       name: 'WEATHER',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -416,7 +410,7 @@ const data = {
     },
     {
       _id_old: '62db85011bc1c90927036dda',
-      slug: 'HAPPENING',
+      slug: 'happening',
       name: 'HAPPENING',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -432,7 +426,7 @@ const data = {
     },
     {
       _id_old: '62d24a371bc1c90927036dd8',
-      slug: 'B_MOVIE',
+      slug: 'B_movie',
       name: 'B MOVIE',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -448,7 +442,7 @@ const data = {
     },
     {
       _id_old: '62c91060aadde208fddc5152',
-      slug: 'ROSES',
+      slug: 'roses',
       name: 'ROSES',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -465,7 +459,7 @@ const data = {
     },
     {
       _id_old: '62bfd2e8df02ee096360f297',
-      slug: 'VERSUS',
+      slug: 'versus',
       name: 'VERSUS',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -482,7 +476,7 @@ const data = {
     },
     {
       _id_old: '62b72f65df02ee096360f296',
-      slug: 'CARRY',
+      slug: 'carry',
       name: 'CARRY',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -498,7 +492,7 @@ const data = {
     },
     {
       _id_old: '62ae3968df02ee096360f295',
-      slug: 'THEORY',
+      slug: 'theory',
       name: 'THEORY',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -514,7 +508,7 @@ const data = {
     },
     {
       _id_old: '62a4cb21df02ee096360f293',
-      slug: 'GRAVITY',
+      slug: 'gravity',
       name: 'GRAVITY',
       seller: { _id_old: '6279a43dcce4316bbd3c1501' },
       image:
@@ -530,7 +524,7 @@ const data = {
     },
     {
       _id_old: '629ae73fdf02ee096360f290',
-      slug: 'FORCE',
+      slug: 'force',
       name: 'FORCE',
       seller: null,
       image:
@@ -547,7 +541,7 @@ const data = {
     },
     {
       _id_old: '6291ad89b54fe409934652ab',
-      slug: 'BRIEf',
+      slug: 'brief',
       name: 'BRIEF',
       seller: null,
       image:
@@ -564,7 +558,7 @@ const data = {
     },
     {
       _id_old: '627f390c76c75e6d5ab120f8',
-      slug: 'VOTE',
+      slug: 'vote',
       name: 'VOTE',
       seller: null,
       image:
@@ -581,7 +575,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c1500',
-      slug: 'DEBUT',
+      slug: 'debut',
       name: 'DEBUT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/debut.png',
@@ -597,7 +591,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ff',
-      slug: 'LADIES_NIGHT',
+      slug: 'ladies_night',
       name: 'LADIES NIGHT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/ladiesnight.png',
@@ -613,7 +607,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14fe',
-      slug: 'AMERICANA_NOSTALGIA',
+      slug: 'americana_nostalgia',
       name: 'AMERICANA NOSTALGIA',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/amer_nos.png',
@@ -629,7 +623,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14fd',
-      slug: 'PSYCHEDELIC_INTENT',
+      slug: 'psychedelic_intent',
       name: 'PSYCHEDELIC INTENT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/psych.png',
@@ -645,7 +639,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14fc',
-      slug: 'SINGALONG',
+      slug: 'singalong',
       name: 'SINGALONG',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/singalong.png',
@@ -661,7 +655,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14fb',
-      slug: 'RFK',
+      slug: 'rfk',
       name: 'RFK',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/rfk.png',
@@ -677,7 +671,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14fa',
-      slug: 'MODS_v_ROCKERS',
+      slug: 'modsvrockers',
       name: 'MODS v ROCKERS',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/mods.png',
@@ -709,7 +703,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f8',
-      slug: 'DANCE',
+      slug: 'dance',
       name: 'DANCE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/dance.PNG',
@@ -725,7 +719,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f7',
-      slug: 'FRISCO',
+      slug: 'frisco',
       name: 'FRISCO',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/sf.png',
@@ -741,7 +735,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f6',
-      slug: 'SUMMER',
+      slug: 'summer',
       name: 'SUMMER',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/summer.png',
@@ -757,7 +751,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f5',
-      slug: 'MIX',
+      slug: 'mix',
       name: 'MIX',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/415fm.png',
@@ -773,7 +767,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f4',
-      slug: 'SUNRISE',
+      slug: 'sunrise',
       name: 'SUNRISE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/venus_small.png',
@@ -789,7 +783,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f3',
-      slug: 'STORMY',
+      slug: 'stormy',
       name: 'STORMY',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/swirl.png',
@@ -805,7 +799,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f2',
-      slug: 'COM',
+      slug: 'com',
       name: 'COM',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/common_small.png',
@@ -821,7 +815,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f1',
-      slug: 'FIRES',
+      slug: 'fires',
       name: 'FIRES',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/fires_small.png',
@@ -837,7 +831,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14f0',
-      slug: 'SUM_OF',
+      slug: 'sum_of',
       name: 'SUM OF',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/sumof_small.png',
@@ -853,7 +847,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ef',
-      name: 'ORANGE',
+      name: 'orange',
       slug: 'ORANGE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/orange_small.png',
@@ -869,7 +863,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ee',
-      slug: 'JIMI',
+      slug: 'jimi',
       name: 'JIMI',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/para_small.png',
@@ -885,7 +879,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ed',
-      slug: 'COOL',
+      slug: 'cool',
       name: 'COOL',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/cool_small.png',
@@ -901,7 +895,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ec',
-      slug: 'SKY',
+      slug: 'sky',
       name: 'SKY',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/sky.png',
@@ -917,7 +911,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14eb',
-      slug: 'SOMEWHERE',
+      slug: 'somewhere',
       name: 'SOMEWHERE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/somewhere.png',
@@ -933,7 +927,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ea',
-      slug: 'HOT',
+      slug: 'hot',
       name: 'HOT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/hot.png',
@@ -949,7 +943,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e9',
-      slug: 'SEVEN',
+      slug: 'seven',
       name: 'SEVEN',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/seven.png',
@@ -965,7 +959,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e8',
-      slug: 'LOADED',
+      slug: 'loaded',
       name: 'LOADED',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/rls.png',
@@ -981,7 +975,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e7',
-      slug: 'PEOPLE',
+      slug: 'people',
       name: 'PEOPLE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/people.png',
@@ -997,7 +991,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e6',
-      slug: 'CONDOR',
+      slug: 'condor',
       name: 'CONDOR',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/condor.png',
@@ -1013,7 +1007,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e5',
-      slug: 'KRAKEN',
+      slug: 'kraken',
       name: 'KRAKEN',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/kraken.png',
@@ -1029,7 +1023,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e4',
-      slug: 'TICK TOCK',
+      slug: 'tick_tock',
       name: 'TICK TOCK',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/tick_tock.png',
@@ -1045,7 +1039,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e3',
-      slug: 'SHOES',
+      slug: 'shoes',
       name: 'SHOES',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/shoes.png',
@@ -1061,7 +1055,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e2',
-      slug: 'TESTING',
+      slug: 'testing',
       name: 'TESTING',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/testing.png',
@@ -1077,7 +1071,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e1',
-      slug: 'BLUE',
+      slug: 'blue',
       name: 'BLUE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/blue.png',
@@ -1093,7 +1087,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14e0',
-      slug: 'DELAWARE',
+      slug: 'delaware',
       name: 'DELAWARE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/delaware.png',
@@ -1109,7 +1103,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14df',
-      slug: 'FIRST',
+      slug: 'first',
       name: 'FIRST',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/first.png',
@@ -1125,7 +1119,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14de',
-      slug: 'FORT',
+      slug: 'fort',
       name: 'FORT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/fort.png',
@@ -1141,7 +1135,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14dd',
-      slug: 'FEMA',
+      slug: 'fema',
       name: 'FEMA',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/fema.png',
@@ -1157,7 +1151,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14dc',
-      slug: 'FOCUS',
+      slug: 'focus',
       name: 'FOCUS',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/focus.png',
@@ -1173,7 +1167,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14db',
-      slug: 'UNFINISHED',
+      slug: 'unfinished',
       name: 'UNFINISHED',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/unfinished.png',
@@ -1189,7 +1183,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14da',
-      slug: 'STARE',
+      slug: 'stare',
       name: 'STARE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/stare.png',
@@ -1205,7 +1199,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d9',
-      slug: 'THE_END_Of',
+      slug: 'the_end_of',
       name: 'THE END OF',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/endof.png',
@@ -1221,7 +1215,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d8',
-      slug: 'MASK',
+      slug: 'mask',
       name: 'MASK',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/mask.png',
@@ -1237,7 +1231,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d7',
-      slug: 'HOPE',
+      slug: 'hope',
       name: 'HOPE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/hope.png',
@@ -1253,7 +1247,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d6',
-      slug: 'SILKY',
+      slug: 'silky',
       name: 'SILKY',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/silky.png',
@@ -1269,7 +1263,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d5',
-      slug: 'FREE',
+      slug: 'free',
       name: 'FREE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/free.png',
@@ -1301,7 +1295,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d3',
-      slug: 'GIVEN',
+      slug: 'given',
       name: 'GIVEN',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/given.png',
@@ -1317,7 +1311,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d2',
-      name: 'YUMA',
+      name: 'yuma',
       slug: 'YUMA',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/yuma.png',
@@ -1333,7 +1327,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d1',
-      slug: 'SILENCE',
+      slug: 'silence',
       name: 'SILENCE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/silence.png',
@@ -1349,7 +1343,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14d0',
-      slug: 'FAMILIAR',
+      slug: 'familiar',
       name: 'FAMILIAR',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/familiar.png',
@@ -1365,7 +1359,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14cf',
-      slug: 'COUNT',
+      slug: 'count',
       name: 'COUNT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/count.png',
@@ -1381,7 +1375,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14ce',
-      slug: 'STILL',
+      slug: 'still',
       name: 'STILL',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/still.png',
@@ -1397,7 +1391,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14cd',
-      slug: 'TIME',
+      slug: 'time',
       name: 'TIME',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/time.png',
@@ -1413,7 +1407,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14cc',
-      slug: 'CRYPTO',
+      slug: 'crypto',
       name: 'CRYPTO',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/crypto.png',
@@ -1429,7 +1423,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14cb',
-      slug: 'INSIDE',
+      slug: 'inside',
       name: 'INSIDE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/inside.png',
@@ -1461,7 +1455,7 @@ const data = {
     },
     {
       _id_old: '6279a435cce4316bbd3c14c9',
-      slug: 'UP',
+      slug: 'up',
       name: 'UP',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/up.png',
@@ -1478,7 +1472,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c8',
       number: '156',
-      slug: 'DETAIL',
+      slug: 'detail',
       name: 'DETAIL',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/detail.png',
@@ -1494,7 +1488,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c7',
       number: '157',
-      slug: 'CATCH',
+      slug: 'catch',
       name: 'CATCH',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/catch.png',
@@ -1510,7 +1504,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c6',
       number: '158',
-      slug: 'RESULT',
+      slug: 'result',
       name: 'RESULT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/result.png',
@@ -1526,7 +1520,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c5',
       number: '159',
-      slug: 'FOLD',
+      slug: 'fold',
       name: 'FOLD',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/fold.png',
@@ -1542,7 +1536,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c4',
       number: '160',
-      slug: 'BRIDGE',
+      slug: 'bridge',
       name: 'BRIDGE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/bridge.png',
@@ -1558,7 +1552,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c3',
       number: '161',
-      slug: 'TANGENT',
+      slug: 'tangent',
       name: 'TANGENT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/tangent.png',
@@ -1574,7 +1568,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c2',
       number: '162',
-      slug: 'KEEP',
+      slug: 'keep',
       name: 'KEEP',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/keep.png',
@@ -1590,7 +1584,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c1',
       number: '163',
-      slug: 'RETURN',
+      slug: 'return',
       name: 'RETURN',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/return.png',
@@ -1606,7 +1600,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14c0',
       number: '164',
-      slug: 'PITCH',
+      slug: 'pitch',
       name: 'PITCH',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/pitch.png',
@@ -1622,7 +1616,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14bf',
       number: '165',
-      slug: 'BUILD',
+      slug: 'build',
       name: 'BUILD',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/build.png',
@@ -1638,7 +1632,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14be',
       number: '166',
-      slug: 'CLEAR',
+      slug: 'clear',
       name: 'CLEAR',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/clear.png',
@@ -1654,7 +1648,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14bd',
       number: '167',
-      slug: 'PICTURE',
+      slug: 'picture',
       name: 'PICTURE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/picture.png',
@@ -1670,7 +1664,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14bc',
       number: '168',
-      slug: 'HELP',
+      slug: 'help',
       name: 'HELP',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/help.png',
@@ -1686,7 +1680,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14bb',
       number: '169',
-      slug: 'ASSOCIATION',
+      slug: 'association',
       name: 'ASSOCIATION',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/association.png',
@@ -1702,7 +1696,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14ba',
       number: '170',
-      slug: 'MASSIVE',
+      slug: 'massive',
       name: 'MASSIVE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/massive.png',
@@ -1718,7 +1712,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b9',
       number: '171',
-      slug: 'CENTER',
+      slug: 'center',
       name: 'CENTER',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/center.png',
@@ -1734,7 +1728,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b8',
       number: '172',
-      slug: 'LIMIT',
+      slug: 'limit',
       name: 'LIMIT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/limit.png',
@@ -1750,7 +1744,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b7',
       number: '173',
-      slug: 'OPEN',
+      slug: 'open',
       name: 'OPEN',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/open.png',
@@ -1766,7 +1760,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b6',
       number: '174',
-      slug: 'SIGNAL',
+      slug: 'signal',
       name: 'SIGNAL',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/signal.png',
@@ -1782,7 +1776,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b5',
       number: '175',
-      slug: 'POST',
+      slug: 'post',
       name: 'POST',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/post.png',
@@ -1798,7 +1792,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b4',
       number: '176',
-      slug: 'VERDICT',
+      slug: 'verdict',
       name: 'VERDICT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/verdict.png',
@@ -1814,7 +1808,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b3',
       number: '177',
-      slug: 'TRIP',
+      slug: 'trip',
       name: 'TRIP',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/trip.png',
@@ -1830,7 +1824,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b2',
       number: '178',
-      slug: 'TINT',
+      slug: 'tint',
       name: 'TINT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/tint.png',
@@ -1846,7 +1840,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b1',
       number: '179',
-      slug: 'INCLUDED',
+      slug: 'included',
       name: 'INCLUDED',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/included.png',
@@ -1862,7 +1856,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14b0',
       number: '180',
-      slug: 'ROUTE',
+      slug: 'route',
       name: 'ROUTE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/route.png',
@@ -1878,7 +1872,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14af',
       number: '181',
-      slug: 'WORK',
+      slug: 'work',
       name: 'WORK',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/work.png',
@@ -1894,7 +1888,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14ae',
       number: '182',
-      slug: 'STAND',
+      slug: 'stand',
       name: 'STAND',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/stand.png',
@@ -1910,7 +1904,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14ad',
       number: '183',
-      slug: 'TRAFFIC',
+      slug: 'traffic',
       name: 'TRAFFIC',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/traffic.png',
@@ -1926,7 +1920,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14ac',
       number: '184',
-      slug: 'SPARK',
+      slug: 'spark',
       name: 'SPARK',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/spark.png',
@@ -1942,7 +1936,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14ab',
       number: '185',
-      slug: 'ORDER',
+      slug: 'order',
       name: 'ORDER',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/order.png',
@@ -1958,7 +1952,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14aa',
       number: '186',
-      slug: 'FACTUAL',
+      slug: 'factual',
       name: 'FACTUAL',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/factual.png',
@@ -1974,7 +1968,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a9',
       number: '187',
-      slug: 'DISTANCE',
+      slug: 'distance',
       name: 'DISTANCE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/distance.png',
@@ -1990,7 +1984,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a8',
       number: '188',
-      slug: 'BOX',
+      slug: 'box',
       name: 'BOX',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/box.png',
@@ -2006,7 +2000,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a7',
       number: '189',
-      slug: 'WHY',
+      slug: 'why',
       name: 'WHY',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/why.png',
@@ -2022,7 +2016,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a6',
       number: '190',
-      slug: 'SAND',
+      slug: 'sand',
       name: 'SAND',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/sand.png',
@@ -2038,7 +2032,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a5',
       number: '191',
-      slug: 'TODAY',
+      slug: 'today',
       name: 'TODAY',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/today.png',
@@ -2054,7 +2048,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a4',
       number: '192',
-      slug: 'HOME',
+      slug: 'home',
       name: 'HOME',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/home.png',
@@ -2070,7 +2064,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a3',
       number: '193',
-      slug: 'FLOWER',
+      slug: 'flower',
       name: 'FLOWER',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/flower.png',
@@ -2086,7 +2080,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a2',
       number: '194',
-      slug: 'WHITE',
+      slug: 'white',
       name: 'WHITE',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/white.png',
@@ -2102,7 +2096,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a1',
       number: '195',
-      slug: 'GROUND',
+      slug: 'ground',
       name: 'GROUND',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/ground.png',
@@ -2118,7 +2112,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c14a0',
       number: '196',
-      slug: 'HAIR',
+      slug: 'hair',
       name: 'HAIR',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/hair.png',
@@ -2134,7 +2128,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c149f',
       number: '197',
-      slug: 'SWEET',
+      slug: 'sweet',
       name: 'SWEET',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/sweet.png',
@@ -2150,7 +2144,7 @@ const data = {
     {
       _id_old: '6279a435cce4316bbd3c149e',
       number: '198',
-      slug: 'CENT',
+      slug: 'cent',
       name: 'CENT',
       image:
         'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/cent.png',

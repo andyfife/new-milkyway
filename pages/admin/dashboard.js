@@ -1,28 +1,9 @@
 import axios from 'axios';
 import Link from 'next/link';
-import { Bar } from 'react-chartjs-2';
 
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from 'chart.js';
 import React, { useEffect, useReducer } from 'react';
 import Layout from '../../components/Layout';
 import { getError } from '../../utils/error';
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
 
 export const options = {
   responsive: true,
@@ -66,16 +47,6 @@ function AdminDashboardScreen() {
     fetchData();
   }, []);
 
-  const data = {
-    labels: summary.salesData.map((x) => x._id), // 2022/01 2022/03
-    datasets: [
-      {
-        label: 'Sales',
-        backgroundColor: 'rgba(162, 222, 208, 1)',
-        data: summary.salesData.map((x) => x.totalSales),
-      },
-    ],
-  };
   return (
     <Layout title="Admin Dashboard">
       <div className="grid  md:grid-cols-4 md:gap-5">
@@ -128,12 +99,6 @@ function AdminDashboardScreen() {
                 </div>
               </div>
               <h2 className="text-xl">Sales Report</h2>
-              <Bar
-                options={{
-                  legend: { display: true, position: 'right' },
-                }}
-                data={data}
-              />
             </div>
           )}
         </div>
