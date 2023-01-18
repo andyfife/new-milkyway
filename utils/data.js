@@ -59,6 +59,22 @@ const data = {
       created: '2022-12-31T06:43:54.386Z',
       updated: '2022-12-31T06:44:50.090Z',
     },
+    {
+      _id_old: '63a6a3fe6063366ffcfa4be8',
+      slug: 'quick',
+      name: 'QUICK',
+      seller: { _id_old: '6279a43dcce4316bbd3c1501' },
+      image:
+        'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/images/quick.png',
+      date: '12/23/22',
+      number: '401',
+      mp3: 'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/mp3/quick.mp3',
+      video:
+        'https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/videos/quick.mp4',
+
+      created: '2022-12-24T07:02:22.449Z',
+      updated: '2022-12-24T07:03:05.022Z',
+    },
   ],
 };
 
