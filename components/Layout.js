@@ -27,8 +27,11 @@ export default function Layout({ title, children }) {
         <meta name="description" content="music video" />
         <link rel="icon" href="/favicon.ico" />
         <style>
-          @import
-          url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+          @import url
+          {
+            'https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap'
+          }
+          ;
         </style>
       </Head>
 
