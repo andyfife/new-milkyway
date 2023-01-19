@@ -24,7 +24,10 @@ export default function Layout({ title, children }) {
         <title>
           {title ? title + ' - milky way fiasco' : 'milky way fiasco'}
         </title>
-        <meta name="description" content="video audio" />
+        <meta
+          name="description"
+          content="video audio - live show every Friday night."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
