@@ -24,11 +24,12 @@ export default function Layout({ title, children }) {
         <title>
           {title ? title + ' - milky way fiasco' : 'milky way fiasco'}
         </title>
-        <meta
-          name="description"
-          content="video audio - live show every Friday night."
-        />
+        <meta name="description" content="music video" />
         <link rel="icon" href="/favicon.ico" />
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+        </style>
       </Head>
 
       <ToastContainer position="bottom-center" limit={1} />
